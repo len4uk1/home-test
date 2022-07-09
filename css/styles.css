@@ -1,0 +1,155 @@
+:root {
+    --focus-color: #2196F3;
+
+}
+
+
+.list {
+    list-style: none;
+ }
+ .link {
+    text-decoration: none;
+ }
+ body {
+    font-family: 'Roboto', sans-serif;
+ } 
+
+
+               /* /*  шапка  */
+.logo {
+
+}
+.meny-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: #212121; 
+}
+.meny-text:hover,
+.meny-text:focus {
+    color: var(--focus-color)
+}
+
+/* .navigation 
+.meny  */
+
+.email:hover,
+.email:focus {
+    color: var(--focus-color)
+}
+
+.email {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.phone-number {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.phone-number:hover,
+.phone-number:focus {
+    color: var(--focus-color)
+}
+
+ /* головний контент */
+
+.hero 
+
+.main-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    ***** color: #FFFFFF; /
+}
+.modal-btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:1.87;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+    }
+    
+    .modal-btn:hover,
+    .modal-btn:focus{
+        background: #2196F3;
+    color: #FFFFFF;
+    }
+
+    .subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    }
+    .section-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+                    /*наша робота*/
+
+.work-time {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+characteristic
+list-title
+work
+work-review
+                /*команда*/
+.team
+.our-team {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.foto-team
+
+.worker {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.office-team{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+
+ 
+
+ 
+

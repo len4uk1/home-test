@@ -1,10 +1,16 @@
     :root {
         --knob-color : #2196F3;
         --text-color : #212121;
-        /* --whitey-color: #FFFFFF; */
+        --whitey-color: #FFFFFF; 
         --mail-color: #757575;
+        --background-color: #2F303A;
     }
 
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color:#E5E5E5;
+        font-size:14px ;
+ } 
 
     .list {
         list-style: none;
@@ -12,34 +18,57 @@
     .link {
         text-decoration: none;
     }
-    body {
-        font-family: 'Roboto', sans-serif;
-    } 
 
-
-    .logo {
+    
+    .logo-up {
         font-family: 'Raleway',sans-serif;
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        color:var(--text-color);
+        color:var(--knob-color);
     }   
 
-    .logospan { 
-        font-family: 'Raleway',sans-serif;
-        font-style: normal;
+    .logospan-up {
+    font-family: 'Raleway',sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        color: var(--knob-color)
+        color: var(--text-color)
         }
+     
+
+
+
+        .logo {
+        font-family: 'Raleway',sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color:var(--knob-color);
+    }   
+     .logospan {
+     font-family: 'Raleway',sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--whitey-color)
+        }
+
     /* /*  шапка  */
-    .meny-text {
+    .stud {
+        font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height:1.14;
+letter-spacing: 0.02em;
+color:var(--knob-color);
+ }
+   .meny-text {
         font-weight: 500;
-        font-size: 14px;
         line-height: 1.33;
         letter-spacing: 0.02em;
         color:var(--text-color); 
@@ -48,7 +77,6 @@
     .meny-text:focus {
         color: var(--knob-color)
     }
-
     .email:hover,
     .email:focus {
         color: var(--knob-color)
@@ -56,7 +84,6 @@
 
     .email {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--mail-color);
@@ -64,7 +91,6 @@
 
     .phone-number {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--mail-color);
@@ -75,7 +101,10 @@
     }
 
     /* головний контент */
-    .main-title{
+    .hero {
+        background:var(--background-color);
+    }
+    .main-title {
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -84,37 +113,33 @@
         text-align: center;
         color:var(--whitey-color);
     }
-        .modal-btn:hover,
-        .modal-btn:focus {
-        background:var(--knob-color);
-        color:var(--whitey-color);
-        }
 
             .modal-btn {
             font-family: 'Roboto',sans-serif;
-            font-style: normal;
             font-weight: 700;
             font-size: 16px;
             line-height:1.87;
-            display: flex;
-            align-items: center;
-            text-align: center;
             letter-spacing: 0.06em;
             color: var(--whitey-color);
             cursor: pointer;
+            background:var(--knob-color);
             }
-
-        .portfolio-btn {
+            .bbtn {
+                color: var(--whitey-color);
+        background:var(--knob-color);
+            }
+            
+            .portfolio-btn {
             font-family: 'Roboto',sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height:1.6;
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--text-color);
     cursor: pointer;
+    
     }
+    
     .portfolio-btn:hover,
     .portfolio-btn:focus {
         background:var(--knob-color);  
@@ -123,7 +148,6 @@
 
         .subtitle {
         font-weight: 700;
-        font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
@@ -132,16 +156,13 @@
         .section-description {
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color:var(--mail-color);
     }
 
     .work-name {
-        font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 700;
+       font-weight: 700;
     font-size: 18px;
     line-height:2;
     letter-spacing: 0.06em;
@@ -149,9 +170,7 @@
     }
 
     .story {
-        font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 400;
+        font-weight: 400;
     font-size: 16px;
     line-height:1.87;
     letter-spacing: 0.03em;
@@ -161,7 +180,6 @@
      /*наша робота*/
 
     .work-time {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -177,7 +195,7 @@
     letter-spacing: 0.03em;
     color:var(--text-color);
     }
-
+    
     .worker {
     font-weight: 500;
     font-size: 16px;
@@ -197,16 +215,27 @@
 
 /* підвал */
     .address {
-        font-family: 'Roboto',sans-serif;
-    font-style: normal;
+       font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height:1.7;
     letter-spacing: 0.03em;
     color: var(--whitey-color);
+}
+.address-menu {
+   font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.color-back {
+ box-sizing: border-box;
+ background:var(--background-color);
+    
 
-    }
 
+}
     
 
     

@@ -124,6 +124,7 @@ color:var(--knob-color);
             color: var(--whitey-color);
             cursor: pointer;
             background:var(--knob-color);
+            border-color: transparent;
             }
             .bbtn {
                 color: var(--whitey-color);

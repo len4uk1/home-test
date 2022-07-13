@@ -2,14 +2,14 @@
         --knob-color : #2196F3;
         --text-color : #212121;
         --whitey-color: #FFFFFF; 
-        --mail-color: #757575;
+        --mail-color:#757575;
         --background-color: #2F303A;
     }
 
     body {
         font-family: 'Roboto', sans-serif;
-        background-color:#E5E5E5;
-        font-size:14px ;
+        background-color: #FFFFFF;
+      font-size:14px ;
  } 
 
     .list {
@@ -78,10 +78,8 @@ color:var(--knob-color);
     .meny-text:focus {
         color: var(--knob-color)
     }
-    .email:hover,
-    .email:focus {
-        color: var(--knob-color)
-    }
+    
+    
 
     .email {
     font-weight: 500;
@@ -126,6 +124,11 @@ color:var(--knob-color);
             background:var(--knob-color);
             border-color: transparent;
             }
+            .modal-btn:hover,
+            .modal-btn:focus {
+                background-color:#188CE8;
+            }
+            
             .bbtn {
                 color: var(--whitey-color);
         background:var(--knob-color);
@@ -142,14 +145,24 @@ color:var(--knob-color);
     cursor: pointer;
     border-color: transparent;
     }
+    .port:hover, 
+    .port:focus {
+     color:#FFFFFF;
+    background-color:var(--knob-color);
+    }
     
-      .subtitle {
+.subtitle {
+    font-size: 14px; 
         font-weight: 700;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:var(--text-color);
         }
+
+    
+    
+      
         .section-description {
         font-style: normal;
         font-weight: 400;

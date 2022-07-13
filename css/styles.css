@@ -18,6 +18,7 @@
     .link {
         text-decoration: none;
     }
+    
 
     
     .logo-up {
@@ -127,6 +128,7 @@ color:var(--knob-color);
             .bbtn {
                 color: var(--whitey-color);
         background:var(--knob-color);
+        border-color: transparent;
             }
             
             .portfolio-btn {
@@ -137,16 +139,10 @@ color:var(--knob-color);
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
-    
+    border-color: transparent;
     }
     
-    .portfolio-btn:hover,
-    .portfolio-btn:focus {
-        background:var(--knob-color);  
-        color: var(--whitey-color); 
-    }
-
-        .subtitle {
+      .subtitle {
         font-weight: 700;
         line-height: 1.14;
         letter-spacing: 0.03em;

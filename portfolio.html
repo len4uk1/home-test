@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
 <link rel="stylesheet" href="./css/styles.css"/>
 
 </head>
@@ -16,41 +17,47 @@
 <body>
     <!--шапка-->
     <header class="heading">
-        <nav class="navigation">
-        <a class="link" href="" >
+        <div class="container page-container">
+             <nav class="navigation">
+        <a class="link logo-tape" href="" >
             <span class="logo-up list">Web</span><span class="logospan-up">Studio</span></a>
         <ul class="meny list">
-            <li><a class="meny-text link" href="./index.html">Студія</a> </li>
-            <li><a class="stud link" href="./portfolio.html">Портфолио</a> </li>
-            <li><a class="meny-text link" href="">Контакти</a> </li>
+            <li class="li-meny">
+                <a class="meny-text link" href="./index.html">Студія</a> </li>
+            <li class="li-meny">
+                <a class="stud link" href="./portfolio.html">Портфолио</a> </li>
+            <li class="li-meny">
+                <a class="meny-text link" href="">Контакти</a> </li>
             
         </ul>
     </nav>
-    <ul class="list">
-        <li>
+    <ul class="meny list">
+        <li class="meny">
             <a class="phone-number link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
     <li>
         <a class="phone-number link" href="+380961111111">+38 096 111 11 11</a></li>
     </ul>
-        
-
-</header>
+</div>
+       
+    </header>
 
 <!--головний контент-->
 <main>
-    <section class="work-portfolio">
-    
-    <h1 hidden>головне портфоліо</h1>
+    <section class=" work-portfolio">
+    <div class="container">
+        <h1 hidden>головне портфоліо</h1>
 
-    <ul class="meny list">
-        <li><button class="bbtn portfolio-btn" type="button">все </button></li>
-        <li><button class="port portfolio-btn " type="button">веб-сайти </button></li>
-        <li><button class="port portfolio-btn " type="button">додаток </button></li>
-        <li><button class="port portfolio-btn" type="button">дизайн  </button></li>
-        <li><button class="port portfolio-btn" type="button">маркетинг </button></li>
+    <ul class="btn-knob  meny list">
+        <li class="">
+            <button class="bbtn portfolio-btn" type="button">все </button></li>
+        <li class=""><button class="port portfolio-btn " type="button">веб-сайти </button></li>
+        <li class=""><button class="port portfolio-btn " type="button">додаток </button></li>
+        <li class=""><button class="port portfolio-btn" type="button">дизайн  </button></li>
+        <li class=""><button class="port portfolio-btn" type="button">маркетинг </button></li>
     </ul>
     
-        <ul class="list">
+        <ul class="menys list">
+    
              
         <li class="work-moment"><img src="./image_portfolio/img1.jpg" alt= "фото проектів"
             width="370" >
@@ -106,6 +113,7 @@
             <p class="story">Додаток</p>
                  </li>                
         </ul>
+    </div>
         </section>
     
 </main>
@@ -113,23 +121,26 @@
 <!--Підвал-->
 <footer>
 <section class="color-back">
-     <h3 class="link">
+    <div class="container">
+         <h3 class="link types">
         <a class="link" href="" >
             <span class="logo list">Web</span><span class="logospan">Studio</span></a>
     </h3>
      <address>
-        <ul class="meny list">
-        <li>
+        <ul class="list">
+        <li class="account">
             <a class="address link" href="">м.Київ, пр-т Леси Українки, 26</a>
         </li>
-        <li>
+        <li class="account">
             <a class="address-menu link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
+        <li class="account">
             <a class="address-menu link" href="+380961111111">+38 096 111 11 11</a>
         </li>
      </ul>
     </address>
+    </div>
+    
      
 </section>
  </footer>

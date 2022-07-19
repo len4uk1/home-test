@@ -291,6 +291,7 @@
     .work {
     text-align: center;
     padding-bottom: 94px;
+    
     }
     .foto-list {
     display: flex;
@@ -300,7 +301,7 @@
     margin-right: 30px;
     }
     .work-time {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -309,8 +310,8 @@
     }
     /*команда*/
     .our-team {
-    padding-top: 94px;
-    margin-bottom: 50px;
+    
+    padding-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;

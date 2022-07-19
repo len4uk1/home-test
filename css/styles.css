@@ -289,8 +289,9 @@
 
      /*наша робота */
     .work {
+       
     text-align: center;
-    padding-bottom: 94px;
+     padding-bottom: 94px; 
     
     }
     .foto-list {

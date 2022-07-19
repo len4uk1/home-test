@@ -36,7 +36,7 @@
     /* коробчка для усіх  */
     .container {
     width : 1200px;
-   margin: 0 auto;
+    margin: 0 auto;
     /* outline: 2px solid rgb(21, 232, 21); */
     padding-left:15px ;
     padding-right:15px ;
@@ -75,7 +75,7 @@
     color: var(--whitey-color)
     }
     .heading {
-        border-bottom: #ECECEC 1px solid;
+    border-bottom: #ECECEC 1px solid;
     background-position: center;
     max-width: 1600px;
     }
@@ -106,6 +106,8 @@
     margin-right: 50px;
     }
     .stud {
+    padding: 32px 0;
+    display: block;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -132,6 +134,8 @@
     color:var(--mail-color);
     }
     .phone-number {
+    padding: 32px 0;
+    display: block;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -143,7 +147,7 @@
     }
     /* головний контент */
     .hero {
-        padding:200px 0;
+    padding:200px 0;
     background:var(--background-color);
     /* outline: 2px solid rgb(21, 232, 21); */
     text-align: center;
@@ -193,15 +197,18 @@
         padding: 94px 0;
     }
     .div-studio {
+    padding: 30px 0;
+    box-shadow:
+    0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius:
+    0px 0px 4px 4px;
     background-color: var(--whitey-color);
-    border-bottom:#EEEEEE 1px solid; 
-    border-right: #EEEEEE 1px solid; 
-    border-left:#EEEEEE 1px solid; 
     }
     .div-portfolio {
-    border-bottom: #EEEEEE 1px solid; 
-    border-right:#EEEEEE 1px solid; ;
-    border-left:#EEEEEE 1px solid; ;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
     padding-top:20px ;
     padding-bottom:20px ;
     padding-left: 24px;
@@ -267,7 +274,7 @@
     border-bottom:#ECECEC 1px solid;
     }
     .team {
-        padding-bottom: 94px;
+        padding: 94px 0;
     background-color:
     #F5F4FA ;
     }
@@ -302,7 +309,7 @@
     margin-right: 30px;
     }
     .work-time {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -312,7 +319,7 @@
     /*команда*/
     .our-team {
     
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -325,8 +332,8 @@
     margin-right: 30px;
     }
     .worker {
-    padding-bottom: 10px;
-    padding-top: 30px;
+    margin-bottom: 10px;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -335,7 +342,7 @@
     color:var(--text-color);
     }
     .office-team{
-        padding-bottom: 30px;
+        
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;

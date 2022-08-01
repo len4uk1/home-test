@@ -23,7 +23,9 @@
             <span class="logo-up list">Web</span><span class="logospan-up">Studio</span></a>
         <ul class="meny list">
             <li class="li-meny">
-                <a class="stud link" href="./portfolio.html">Студія</a> </li>
+                <a class="stud link underline" href="./portfolio.html">Студія</a> </li>
+
+
             <li class="li-meny">
                 <a class="meny-text link" href="./portfolio.html">Портфолио</a> </li>
             <li class="li-meny">
@@ -57,7 +59,7 @@
     <section class="hero">
         <div class="container">
             <h1 class="main-title"> Ефективне рішення для вашого бізнесу</h1>
- <button class="modal-btn" type="button">Заказати послугу</button>
+ <button class="modal-btn" type="button" data-modal-open>Заказати послугу</button>
         </div>
 
      </section>
@@ -126,20 +128,42 @@
                           <!---Наша робота-->
 <section class="work">  
     <div class="container">
+        
         <h2 class="work-time">Чим ми займаємось</h2>
         <ul class="list foto-list">
-            <li class="work-review"><img src="./image/work/img_n.jpg" alt="робота над проектом"
-        width="370" >
-      </li>
             
-        <li class="work-review"><img src="./image/work/img1.jpg" alt="робота над проектом"
-        width="370">
-           </li>
+           
+      <div class="prodoct-wrappep">
+
+                <li class="work-review"><img src="./image/work/img_n.jpg" alt="робота над проектом" width="370" >
+       </li>
+        <div class="foto-label">
+       <p class="overfoto">ДЕСКТОПНІ ДОДАТКИ</p>
+            </div>
+        </div>
+            
+            
         
-        <li class="work-review"><img src="./image/work/img2.jpg" alt="робота над проектом"
-        width="370">
-    </li>
-            
+       
+      
+      
+        <div class="prodoct-wrappep">
+            <li class="work-review"><img src="./image/work/img1.jpg" alt="робота над проектом" width="370">
+       </li>
+       <div class="foto-label">
+        <p class="overfoto">МОБІЛЬНІ ДОДАТКИ</p>
+    </div>
+</div>
+
+
+
+<div class="prodoct-wrappep">
+        <li class="work-review"><img src="./image/work/img2.jpg" alt="робота над проектом" width="370">
+       </li>
+       <div class="foto-label">
+        <p class="overfoto">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
+    </div>
+</div>
             
         </ul>
     </div>
@@ -432,11 +456,19 @@
 
     </ul>
 </div>
+</div>
+    </footer>
 
-    
-     </div>
-    
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal-window ">
+        <button type="button" class="modal-close-btn" data-modal-close>
+            <svg class="modal-close-icon" width="18" height="18">
+                <use href="./image/sprite.svg#icon-close-black"></use>
+            </svg>
+        </button>
 
- </footer>
+    </div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>

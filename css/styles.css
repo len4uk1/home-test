@@ -685,7 +685,6 @@
     }
 
    .modal-close-btn {
-    margin-left: auto;
     right: 8px;
     top: 8px;
     position: absolute;
@@ -707,9 +706,8 @@
     .modal-close-btn:focus  .modal-close-icon {
         fill: var(--knob-color);
     }
-    .meny-text h {
-        transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1), 
-    visibility 1000ms cubic-bezier(0.4, 0, 0.2, 1) ;
-       
-
+    .modal-close-btn:hover ,
+    .modal-close-btn:focus {
+        border-color: var(--knob-color);
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }

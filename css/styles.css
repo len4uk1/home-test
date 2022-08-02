@@ -697,6 +697,7 @@
     background-color: transparent;
     border: 1px solid  #AFB1B8;
     padding: 0;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .modal-close-icon {
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -709,5 +710,10 @@
     .modal-close-btn:hover ,
     .modal-close-btn:focus {
         border-color: var(--knob-color);
-        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     }
+
+
+       
+    

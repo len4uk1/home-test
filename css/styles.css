@@ -433,10 +433,6 @@
     fill:var(--icon-color);
     }
 
-
-
-
-
     .work {
     text-align: center;
     padding-bottom: 94px; 
@@ -459,10 +455,8 @@
     }
     
 
-
-
-.prodoct-wrappep {
-position:  relative;
+    .prodoct-wrappep {
+    position:  relative;
     }
 
 

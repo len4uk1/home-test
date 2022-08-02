@@ -445,6 +445,8 @@
         gap: 30px;
     display: flex;
     }
+    
+    
     .foto-label {
     position: absolute;
     height: 70px;
@@ -464,10 +466,8 @@ position:  relative;
     }
 
 
-    
+.overfoto {
 
-
-    .overfoto {
     padding-top: 27px;
     padding-bottom: 27px;
     font-family: 'Roboto';

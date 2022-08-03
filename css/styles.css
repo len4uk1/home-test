@@ -258,8 +258,7 @@
     }
     .work-link:hover .overlay,
     .work-link:focus .overlay {
-        transition:  250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    transform: translate(0,0);
+        transform: translate(0,0);
     }
     .div-overlay {
     display: block;
@@ -290,6 +289,7 @@
     line-height: 1.55;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    
     }
     
 
@@ -462,7 +462,7 @@
     }
 
 
-.overfoto {
+    .overfoto {
 
     padding-top: 27px;
     padding-bottom: 27px;

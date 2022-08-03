@@ -144,12 +144,14 @@
     font-weight: 500;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color:var(--text-color); 
+    color:var(--text-color);
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+
     .meny-text:hover,
     .meny-text:focus {
     color: var(--knob-color);
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     
     }
     
@@ -172,12 +174,13 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--mail-color);
+     transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     }
     .phone-number:hover,
     .phone-number:focus {
     color: var(--knob-color) ;
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
     }
                                  /* головний контент */
     .hero {
@@ -217,12 +220,12 @@
     cursor: pointer;
     background:var(--knob-color);
     border-color: transparent;
-    
+     transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .modal-btn:hover,
     .modal-btn:focus {
     background-color:#188CE8;
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
     }
     .bbtn {
     color: var(--whitey-color);
@@ -406,7 +409,7 @@
     align-items: center;
     border-radius: 50%;
     background-color:var(--whitey-color);
-    
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
      } 
     .social-list-icon {
     fill: var(--icon-color);
@@ -415,13 +418,13 @@
     .social-list-link:focus {
     color:var(--whitey-color);
     background-color:var(--knob-color);
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
      } 
 
     .social-list-link:hover .social-list-icon,
     .social-list-link:focus  .social-list-icon {
     fill:var(--whitey-color); 
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     } 
 
     .social-list {
@@ -518,14 +521,14 @@
     .list-clains:hover .svg-clains,
     .list-clains:focus .svg-clains {
     fill: var(--fill-color);
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
     } 
 
     .list-clains:hover,
     .list-clains:focus {
     fill: var(--fill-color);
     border: 1px solid #188CE8;
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     }   
 
    .list-clains {
@@ -536,7 +539,7 @@
     border-radius: 4px;
     width: 170px;
     height: 94px;
-    
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
                                    /*команда*/
     .our-team {
@@ -621,7 +624,7 @@
     align-items: center;
     border-radius: 50%;
     background-color:rgba(255, 255, 255, 0.1);
-    
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .social-icon {
@@ -632,12 +635,12 @@
    .social-list-dark:focus {
     color:var(--whitey-color);
     background-color:var(--knob-color);
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     } 
     .social-list-dark:hover .social-icon,
     .social-list-dark:focus  .social-icon {
     fill:white; 
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     } 
     .conected {
     font-family: 'Roboto';

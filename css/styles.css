@@ -6,7 +6,10 @@
     --background-color: #2F303A;
     --fill-color: #188CE8;
     --icon-color: #AFB1B8;
+    --transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+   
+   
     h1,
     h2,
     h3,
@@ -145,7 +148,7 @@
     line-height: 1.33;
     letter-spacing: 0.02em;
     color:var(--text-color);
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--knob-color) var(--transition-duration);
     }
 
     .meny-text:hover,
@@ -174,7 +177,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--mail-color);
-     transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--knob-color) , fill var(--transition-duration);
     
     }
     .phone-number:hover,
@@ -220,7 +223,7 @@
     cursor: pointer;
     background:var(--knob-color);
     border-color: transparent;
-     transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+     transition: background-color  var(--transition-duration);
     }
     .modal-btn:hover,
     .modal-btn:focus {
@@ -405,8 +408,9 @@
     }
 
                                   /*наша робота */
-    .social-list-link {
-    display: inline-block;
+    
+                                  .social-list-link {
+    display: inline;
     height: 44px;
     width: 44px;
     background-size: contain;
@@ -415,8 +419,9 @@
     align-items: center;
     border-radius: 50%;
     background-color:var(--whitey-color);
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color var(--transition-duration);
      } 
+
     .social-list-icon {
     fill: var(--icon-color);
     }
@@ -513,21 +518,20 @@
     gap: 30px;
     }
 
-    
-    .list-clains:hover .svg-clains,
-    .list-clains:focus .svg-clains {
+    .social-list-clains:hover .svg-clains,
+    .social-list-clains:focus .svg-clains {
     fill: var(--fill-color);
 
     } 
 
-    .list-clains:hover,
-    .list-clains:focus {
+    .social-list-clains:hover,
+    .social-list-clains:focus {
     fill: var(--fill-color);
     border: 1px solid #188CE8;
     
     }   
 
-   .list-clains {
+   .social-list-clains {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -535,9 +539,13 @@
     border-radius: 4px;
     width: 170px;
     height: 94px;
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+    transition: fill var(--transition-duration) border-color var(--transition-duration);
+}
+
+
                                    /*команда*/
+    
+    
     .our-team {
     margin-bottom: 50px;
     font-weight: 700;
@@ -620,7 +628,7 @@
     align-items: center;
     border-radius: 50%;
     background-color:rgba(255, 255, 255, 0.1);
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color var(--transition-duration) ;
     }
     
     .social-icon {

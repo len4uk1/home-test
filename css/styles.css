@@ -595,25 +595,52 @@
                         /* підпишіться на розсилку */
 
  .sign-start {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+color: #FFFFFF; 
+ }
+
+
+ .button-email-form {
+    display: flex;
+     justify-content: center;
+    align-items: center;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.06em;
+
 color: #FFFFFF;
+
+width: 200px;
+ }
+
+ .conect-div {
+    display: flex;
  }
 
 
 
 
-
-
+ .conect-div {
+    margin-left: 93px;
+ }
 
 
 
  
+
+
 
 
 
@@ -886,6 +913,7 @@ color: rgba(117, 117, 117, 0.5);
     background-position: center;
     
 }
+
 
 /* .modal-form-check:focus + .modal-form-desc::before {
     background-color:var(--knob-color);

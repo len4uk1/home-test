@@ -837,5 +837,5 @@ color: rgba(117, 117, 117, 0.5);
 
 .modal-form-check:checked + .modal-form-desc::before {
     background-color:var(--knob-color);
-    background-image: url(../image/);
+    background-image: url(../image/img\,sprite/ve);
 }

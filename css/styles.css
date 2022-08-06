@@ -42,13 +42,28 @@
     .link {
     text-decoration: none;
     }
-                            /* коробчка для усіх  */
+                     /* коробчка для усіх  */
     .container {
     width : 1200px;
     margin: 0 auto;
     padding-left:15px ;
     padding-right:15px ;
     }
+    
+    
+    
+    /* Зникає Усе */
+    .visual-hidden {
+    position:absolute ;
+    width:1px ;
+    height: 1px;
+    margin: -1;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+
+}
                                     /* шапка  */
     .logo-up {
     font-family: 'Raleway',sans-serif;
@@ -576,6 +591,33 @@
     text-align: center;
     color:var(--mail-color);
     }
+
+                        /* підпишіться на розсилку */
+
+ .sign-start {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+ }
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
                                       /* підвал */
     .address {
     font-style: normal;
@@ -736,6 +778,7 @@ line-height: 1.15;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+margin-bottom: 12px;
 }                          
 
 .name-form-span {
@@ -832,10 +875,55 @@ color: rgba(117, 117, 117, 0.5);
     height: 15px; 
     border-radius: 4px;
     cursor: pointer;
+    margin-right: 7px;
 
 }
 
 .modal-form-check:checked + .modal-form-desc::before {
     background-color:var(--knob-color);
-    background-image: url(../image/img\,sprite/ve);
+    background-image: url(../image/img\,sprite/vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+/* .modal-form-check:focus + .modal-form-desc::before {
+    background-color:var(--knob-color);
+    background-image: url(../image/img\,sprite/vector.svg);
+} */
+
+.modal-form-desc {
+
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+margin-bottom:30px;
+}
+
+.button-modal-form {
+
+    align-self: center;
+    background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+width: 200px;
+height: 50px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+color: #FFFFFF;
+}
+
+.button-modal-form {
+    outline: none;
+    border-color: #2196F3;
 }

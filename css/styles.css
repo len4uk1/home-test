@@ -615,9 +615,18 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-
 width: 200px;
+border-color: transparent;
+transition: background-color var(--transition-duration)
  }
+
+ .button-email-form:hover,
+ .button-email-form:focus {
+    background-color: #188CE8;
+ }
+
+
+
 
  .conect-div {
     display: flex;
@@ -916,6 +925,12 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 color: #FFFFFF;
+border-color: transparent;
+transition: background-color var(--transition-duration)
+}
+.button-modal-form:hover,
+.button-modal-form:focus {
+    background-color: #188CE8;
 }
 
 .button-modal-form {

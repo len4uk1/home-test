@@ -889,8 +889,12 @@ height: 15px;
 border-radius: 4px;
 cursor: pointer;
 margin-right: 7px;
-
 }
+
+
+
+    
+
 
 .modal-form-check:checked + .modal-form-desc::before {
 background-color:var(--knob-color);
@@ -900,6 +904,7 @@ background-position: center;
 }
 
 .modal-form-desc {
+margin: auto;
 display: flex;
 align-items: center;
 font-family: 'Roboto';

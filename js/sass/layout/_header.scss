@@ -1,0 +1,72 @@
+.page-container {
+display: flex;
+align-items: center;
+}
+.navigation {
+display: flex;
+align-items: center;
+}
+.menys {
+display: flex;
+flex-wrap: wrap;
+margin-top:50px ;
+}
+.meny {
+display: flex;
+align-items: center;
+margin-left: auto;
+}
+.meny:not(:last-child) {
+margin-right: 50px;
+} 
+.li-meny:not(:last-child) {
+margin-right: 50px;
+}
+.stud {
+padding: 32px 0;
+display: block;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height:1.14;
+letter-spacing: 0.02em;
+color: var(--knob-color)
+}
+.meny-text {
+display: block;
+padding: 32px 0;
+font-weight: 500;
+line-height: 1.33;
+letter-spacing: 0.02em;
+color:var(--text-color);
+transition: color var(--transition-duration);
+}
+.meny-text:hover,
+.meny-text:focus {
+color: var(--knob-color);
+}
+.email {
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--mail-color);
+}
+.phone-svg {
+fill: currentColor;
+margin-right: 10px;
+}
+.phone-number {
+align-items: center;
+display: flex;
+justify-content: center;
+padding: 32px 0;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--mail-color);
+transition: color var(--knob-color) , fill var(--transition-duration);
+}
+.phone-number:hover,
+.phone-number:focus {
+color: var(--knob-color) ;
+}

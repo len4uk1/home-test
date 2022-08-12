@@ -1,0 +1,39 @@
+.section-emdlem {
+padding: 94px 0;
+}
+.regular-clains {
+margin-bottom: 50px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height:1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--text-color);
+}
+.company-emdlem {
+padding: 94 0;
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.social-list-clains {
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+width: 170px;
+height: 94px;
+transition: fill var(--transition-duration) border-color var(--transition-duration);
+}
+.social-list-clains:hover .svg-clains,
+.social-list-clains:focus .svg-clains {
+fill: var(--fill-color);
+} 
+.social-list-clains:hover,
+.social-list-clains:focus {
+fill: var(--fill-color);
+border: 1px solid #188CE8;
+}   

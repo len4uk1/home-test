@@ -8,26 +8,31 @@
     margin-bottom: 0;
     }
     
-    ul,ol {
+    ul,
+    ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
     }
+    
     img {
     display: block;
     }
 
     button {
-        cursor: pointer;
+    cursor: pointer;
     }
+
     body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
     font-size:14px ;
     } 
+    
     .list {
     list-style: none;
     }
+
     .link {
     text-decoration: none;
     }

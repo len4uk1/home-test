@@ -29,7 +29,8 @@ p {
   margin-bottom: 0;
 }
 
-ul, ol {
+ul,
+ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -166,11 +167,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #2196F3;
+  background: var(--knob-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -180,27 +179,8 @@ body {
   border-color: transparent;
   transition: background-color var(--transition-duration);
 }
-
-.button-email-form:hover,
-.button-email-form:focus {
-  background-color: #188CE8;
-}
-
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.2);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+.button-email-form:hover, .button-email-form:focus {
+  background-color: var(--fill-color);
 }
 
 .modal-window {
@@ -408,6 +388,46 @@ body {
   border-color: #2196F3;
 }
 
+.portfolio-btn {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border-color: transparent;
+  transition: background-color var(--transition-duration), color var(--transition-duration);
+}
+
+.bbtn {
+  color: var(--whitey-color);
+  background: var(--knob-color);
+  border-color: transparent;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .page-container {
   display: flex;
   align-items: center;
@@ -516,117 +536,14 @@ body {
   color: var(--whitey-color);
 }
 
-.work-portfolio {
-  padding: 94px 0;
-}
-
-.bbtn {
-  color: var(--whitey-color);
-  background: var(--knob-color);
-  border-color: transparent;
-}
-
-.portfolio-btn {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 22px;
-  padding-right: 22px;
-  border-radius: 4px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  border-color: transparent;
-  transition: background-color var(--transition-duration), color var(--transition-duration);
-}
-
-.work-moment:hover,
-.work-moment:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.work-link {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.work-link:hover .overlay,
-.work-link:focus .overlay {
-  transform: translate(0, 0);
-}
-
-.div-overlay {
-  display: block;
-  position: relative;
-  overflow: hidden;
-}
-
-.overlay {
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  left: 0;
-  top: 0;
-  transform: translate(0, 100%);
-  transition: transform var(--transition-duration);
-  background-color: rgba(33, 150, 243, 0.9);
-  width: 100%;
-  height: 100%;
-  padding-top: 63px;
-  padding-left: 24px;
-  padding-bottom: 63px;
-  padding-right: 24px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.55;
-  letter-spacing: 0.03em;
-  color: #FFFFFF;
-}
-
-.div-portfolio {
-  background: var(--whitey-color);
-  border: 1px solid #EEEEEE;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
 .port:hover,
 .port:focus {
   color: var(--whitey-color);
   background-color: var(--knob-color);
 }
 
-.menys {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
 .heading {
   border-bottom: #ECECEC 1px solid;
-}
-
-.work-name {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--text-color);
-}
-
-.story {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--mail-color);
 }
 
 .characteristic {
@@ -965,4 +882,96 @@ body {
 
 .conect-div {
   display: flex;
+}
+
+.work-portfolio {
+  padding: 94px 0;
+}
+
+.work-moment:hover,
+.work-moment:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.work-link {
+  transition: var(--transition-duration);
+}
+
+.work-link:hover .overlay,
+.work-link:focus .overlay {
+  transform: translate(0, 0);
+}
+
+.div-overlay {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  left: 0;
+  top: 0;
+  transform: translate(0, 101%);
+  transition: transform var(--transition-duration);
+  background-color: rgba(33, 150, 243, 0.9);
+  width: 100%;
+  height: 100%;
+  padding-top: 63px;
+  padding-left: 24px;
+  padding-bottom: 63px;
+  padding-right: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.btn-knob {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.div-portfolio {
+  background: var(--whitey-color);
+  border: 1px solid #EEEEEE;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.div-portfolio:hover,
+.div-portfolio:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.work-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
+
+.story {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--mail-color);
+}
+
+.menys {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }/*# sourceMappingURL=main.css.map */

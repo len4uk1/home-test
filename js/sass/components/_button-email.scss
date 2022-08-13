@@ -6,11 +6,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #2196F3;
+    background:var(--knob-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -18,11 +16,12 @@
     color: #FFFFFF;
     width: 200px;
     border-color: transparent;
-    transition: background-color var(--transition-duration)
+    transition: background-color var(--transition-duration);
+       &:hover,
+       &:focus {
+        background-color:var(--fill-color);
+        }
      }
     
-     .button-email-form:hover,
-     .button-email-form:focus {
-        background-color: #188CE8;
-     }
+     
     

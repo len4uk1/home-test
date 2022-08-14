@@ -68,19 +68,19 @@
     align-items: center;
     border-radius: 50%;
     background-color:rgba(255, 255, 255, 0.1);
-    transition: background-color var(--transition-duration) ;
+    transition: background-color var(--transition-duration);
+    &:hover,
+    &:focus {
+    color:var(--whitey-color);
+    background-color:var(--knob-color);
+      } 
     }
     
     .social-icon {
     fill: 
     var(--whitey-color);
     }
-   .social-list-dark:hover,
-   .social-list-dark:focus {
-    color:var(--whitey-color);
-    background-color:var(--knob-color);
-    
-    } 
+   
     .social-list-dark:hover .social-icon,
     .social-list-dark:focus  .social-icon {
     fill:white; 

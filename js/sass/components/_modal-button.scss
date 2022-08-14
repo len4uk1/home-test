@@ -14,8 +14,9 @@ cursor: pointer;
 background:var(--knob-color);
 border-color: transparent;
 transition: background-color  var(--transition-duration);
+&:hover,
+&:focus {
+background-color:var(--fill-color);
 }
-.modal-btn:hover,
-.modal-btn:focus {
-background-color:#188CE8;
 }
+

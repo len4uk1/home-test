@@ -11,10 +11,11 @@ box-shadow:
 border-radius:
 0px 0px 4px 4px;
 background-color: var(--whitey-color);
-}
-.foto-team:not(:last-child) {
+&:not(:last-child) {
 margin-right: 30px;
 }
+}
+
 .our-team {
 margin-bottom: 50px;
 font-weight: 700;

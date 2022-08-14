@@ -65,7 +65,7 @@ body {
   padding-right: 15px;
 }
 
-.heading {
+.page-heder {
   border-bottom: #ECECEC 1px solid;
   background-position: center;
   max-width: 1600px;
@@ -454,7 +454,7 @@ body {
   margin-right: 50px;
 }
 
-.li-meny:not(:last-child) {
+.meny__link:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -542,7 +542,7 @@ body {
   background-color: var(--knob-color);
 }
 
-.heading {
+.page-heder {
   border-bottom: #ECECEC 1px solid;
 }
 

@@ -12,10 +12,12 @@ text-align: center;
 letter-spacing: 0.03em;
 cursor: pointer;
 border-color: transparent;
-transition: background-color var(--transition-duration), color var(--transition-duration) ;
+transition: background-color var(--transition-duration),
+ color var(--transition-duration) ;
 }
+
 .bbtn {
-color: var(--whitey-color);
+ color: var(--whitey-color);
 background:var(--knob-color);
 border-color: transparent;
 }

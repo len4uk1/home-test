@@ -33,7 +33,7 @@ line-height:1.14;
 letter-spacing: 0.02em;
 color: var(--knob-color)
 }
-.meny-text {
+.meny__text {
 display: block;
 padding: 32px 0;
 font-weight: 500;
@@ -53,11 +53,11 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color:var(--mail-color);
 }
-.phone-svg {
+.meny__phone-svg {
 fill: currentColor;
 margin-right: 10px;
 }
-.phone-number {
+.meny__phone-number {
 align-items: center;
 display: flex;
 justify-content: center;

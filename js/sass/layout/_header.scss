@@ -1,12 +1,12 @@
-.page-container {
+.header__page-container {
 display: flex;
 align-items: center;
 }
-.navigation {
+.header__navigation-direction {
 display: flex;
 align-items: center;
 }
-.menys {
+.menu-selection {
 display: flex;
 flex-wrap: wrap;
 margin-top:50px ;
@@ -15,11 +15,15 @@ margin-top:50px ;
 display: flex;
 align-items: center;
 margin-left: auto;
+}
+.token {
+display: flex;
+align-items: center;
+margin-left: auto;
 & :not(:last-child) {
 margin-right: 50px;
 } 
 }
-
 .li-meny:not(:last-child) {
 margin-right: 50px;
 }
@@ -44,9 +48,8 @@ transition: color var(--transition-duration);
 &:hover,
 &:focus {
 color:var(--knob-color);
+ }
 }
-}
-
 .email {
 font-weight: 500;
 line-height: 1.14;
@@ -66,7 +69,7 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color:var(--mail-color);
-transition:color var(--knob-color) fill var(--transition-duration);
+transition:color var(--knob-color) , fill var(--transition-duration);
 &:hover,
 &:focus {
 color: var(--knob-color);

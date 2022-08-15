@@ -1,30 +1,23 @@
 .work-portfolio {
-    padding: 94px 0;
+padding: 94px 0;
 }
-
-
-
-    .work-moment:hover ,
-    .work-moment:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-    }
-
-    .work-link {
-        transition: var(--transition-duration);
-     }
- 
- 
- 
-     
-
-     .div-overlay {
-        display: block;
-        position: relative;
-        overflow: hidden;
-        }
-.overlay {
+.menu-selection {
+display: flex;
+flex-wrap: wrap;
+gap:30px;
+&:hover ,
+&:focus {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+0px 4px 4px rgba(0, 0, 0, 0.06),
+1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+    } 
+.cards-photos {
+display: block;
+position: relative;
+overflow: hidden;
+}
+.cards-photos__inside {
 position: absolute;
 justify-content: center;
 align-items: center;
@@ -46,22 +39,16 @@ font-weight: 400;
 font-size: 18px;
 line-height: 1.55;
 letter-spacing: 0.03em;
-color: #FFFFFF;
-.work-link:hover &,
-.work-link:focus & {
+color:var(--whitey-color);
+.work-moment__work-links:hover &,
+.work-moment__work-links:focus & {
 transform: translate(0,0);
      }
 }
-
-            
-            .buttons {
-                margin-bottom: 50px;
-                display: flex;
-                justify-content: center;
-                gap: 8px;
-            }
-
-.div-portfolio {
+.work-moment__work-links {
+transition: var(--transition-duration);
+ }
+.exposition {
 background: var(--whitey-color);
 border: 1px solid #EEEEEE;
 padding-top:20px ;
@@ -74,26 +61,19 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
 }
-                
-                
-    .work-name {
-     font-weight: 700;
-     font-size: 18px;
-     line-height:2;
-     letter-spacing: 0.06em;
-     color:var(--text-color);
-     }
-
-     .story {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.87;
-        letter-spacing: 0.03em;
-        color:var(--mail-color);
-     }
-     .menys {
-        display: flex;
-        flex-wrap: wrap;
-        gap:30px;
-        }     
+.exposition__names {
+font-weight: 700;
+font-size: 18px;
+line-height:2;
+letter-spacing: 0.06em;
+color:var(--text-color);
+}
+.exposition__title {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color:var(--mail-color);
+}
+     
         

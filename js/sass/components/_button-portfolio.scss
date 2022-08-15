@@ -1,4 +1,4 @@
-.portfolio-btn {
+.buttons__portfolio-btn {
 padding-top: 6px;
 padding-bottom: 6px;
 padding-left: 22px;
@@ -13,11 +13,22 @@ letter-spacing: 0.03em;
 cursor: pointer;
 border-color: transparent;
 transition: background-color var(--transition-duration),
- color var(--transition-duration) ;
+ color var(--transition-duration);
+ &:hover,
+ &:focus {
+  color: var(--whitey-color);
+  background-color: var(--knob-color);
+}
 }
 
 .bbtn {
  color: var(--whitey-color);
 background:var(--knob-color);
 border-color: transparent;
+}
+.buttons {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
 }

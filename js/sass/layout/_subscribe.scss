@@ -2,6 +2,8 @@
 .sign-form{
 margin-left: auto;
 }
+
+
 .sign-start {
 margin-bottom: 20px;
 @include font(14px, 700, 16px);
@@ -9,6 +11,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF; 
 }
+
+
+
 .sign-input {
 padding-left: 16px;
 padding-top: 15px;

@@ -31,7 +31,12 @@ fill: var(--fill-color);
 border: 1px solid #188CE8;
  }   
 }
-.social-list-clains:hover .svg-clains,
-.social-list-clains:focus .svg-clains {
+
+.svg-clains{
+fill:var(--icon-color);
+.social-list-clains:hover &,
+.social-list-clains:focus & {
 fill: var(--fill-color);
 } 
+ }
+

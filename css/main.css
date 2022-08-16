@@ -86,11 +86,11 @@ body {
   color: var(--text-color);
 }
 
-.underline {
+.meny__link--underline {
   position: relative;
 }
 
-.underline::after {
+.meny__link--underline::after {
   position: absolute;
   content: "";
   display: block;
@@ -274,7 +274,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-decoration-line: underline;
+  text-decoration-line: meny__link--underline;
   color: #2196F3;
 }
 

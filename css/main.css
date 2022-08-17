@@ -86,11 +86,11 @@ body {
   color: var(--text-color);
 }
 
-.meny__link--underline {
+.meny__link {
   position: relative;
 }
 
-.meny__link--underline::after {
+.underline::after {
   position: absolute;
   content: "";
   display: block;
@@ -274,9 +274,9 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-decoration-line: meny__link--underline;
-  color: #2196F3;
+  text-decoration-line: color #2196F3;
 }
+  
 
 .modal-input:focus {
   outline: none;

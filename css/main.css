@@ -477,10 +477,10 @@
     pointer-events: none;
   }
 
-  .header__page-container {
+  /* .header__page-container {
     display: flex;
     align-items: center;
-  }
+  } */
 
   .header__navigation-direction {
     margin-right: 93px;

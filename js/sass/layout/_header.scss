@@ -14,11 +14,11 @@
   margin-top: 50px;
 }
 
-.meny {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
+// .meny {
+//   display: flex;
+//   align-items: center;
+//   margin-left: auto;
+// }
 .token {
   display: flex;
   align-items: center;
@@ -77,4 +77,4 @@
   &:focus {
     color: var(--knob-color);
   }
-} /*# sourceMappingURL=main.css.map */
+}

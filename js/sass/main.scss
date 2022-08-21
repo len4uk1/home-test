@@ -2,22 +2,19 @@
 @import './utils/visual-hidden';
 @import './utils/mixin';
 
-
 @import './bace/common';
 @import './bace/container';
 @import './bace/header';
 
-
-
-@import './components/logo-type';
-@import './components/meny__link';
-@import './components/modal-button';
-@import './components/list-icon';
-@import './components/button-email';
-@import './components/modal-window';
-@import './components/inside-window';
-@import './components/button-portfolio';
 @import './components/backdrop';
+@import './components/button-email';
+
+@import './components/button-portfolio';
+@import './components/inside-window';
+@import './components/list-icon';
+@import './components/logo-type';
+@import './components/modal-button';
+@import './components/underline';
 
 @import './layout/header';
 @import './layout/hero';
@@ -28,4 +25,3 @@
 @import './layout/footer';
 @import './layout/subscribe';
 @import './layout/hero-portfolio';
-
